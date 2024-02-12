@@ -1,0 +1,51 @@
+.cal-side {
+  background-color: rgb(25, 25, 25);
+  height: 500px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.buttons {
+  background-color: rgb(55, 55, 55);
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.clear-button {
+  background-color: rgb(55, 55, 55);
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor:pointer
+}
+
+.r-buttons {
+  background-color: orange;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.result-down {
+  color: white;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Rock paper scissors
+    </title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+    <link rel="stylesheet" href="Page.css">
+  </head>
+  
+  <body>
+
+    <div class="container">
+      <div class="upper-row">
+
+        <a href="index.html" class="home-button"><img class="t-icon" src="t-icon.png" alt=""> 
+          tashbaltann.com
+        </a>
+  
+        <div class="menu">
+
+          <a type="submit" class="content-button"><img class="button-img" src="hamburger-menu.svg" alt="buttonpng">
+          </a>
+
+          <div class="menu-content">
+            <a class="sub-content" href="Resume.html">Resume</a>
+            <a class="sub-content" href="https://www.linkedin.com/in/tashbaltann">LinkedIn.Profile</a>
+            <a class="sub-content" href="rock-paper-scissors.html">RPS game</a>
+            <a class="sub-content" href="Calculator.html">Calculator</a>
+            <a class="sub-content" href="ELP.html">IELTS Preparation plan</a>
+          </div>
+
+        </div>
+  
+      </div>
+
+      <div class="down-row">
+        
+        <div class="rps-side">
+          <p class="topic-sentence">
+            Rock Paper Scissors
+          </p>
+      
+          <button class="choice-button js-rock-button" >
+          <img class="icon-img" src="rock-emoji.png">
+          </button>
+          
+          <button class="choice-button js-paper-button">
+          <img class="icon-img js-paper-img" src="paper-emoji.png">
+          </button>
+      
+          <button class="choice-button js-scissors-button">
+          <img class="icon-img" src="scissors-emoji.png">
+          </button>
+      
+          <p class="result-font js-result"></p>
+          <p class="js-moves"></p>
+          <p class="js-score"></p>
+      
+          <button
+            class="reset-button" 
+            onclick="
+            score.wins = 0;
+            score.losses = 0;
+            score.ties = 0;
+            localStorage.removeItem(JSON.stringify('score'));
+            updateScoreElement();
+            ">Reset Score
+          </button>
+      
+          <button class="auto-play-button js-auto-play">
+            Auto Play
+          </button>
+        </div>
+
+      </div>
+
+      <div class="contact-inf">
+
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlFmClQrTMsFTcHLSvvkzDfTKtcSCZhQDFJvsGhDGKTgKrlgnCGCzppHRwJHvRHbMGLcCL" class="down-side-inf"><img class="down-side-icons" src="gmail-icon.png" alt="">tashbaltann@gmail.com</a>
+
+        <p class="down-side-inf"><img class="down-side-icons" src="phone-icon.png" alt="">+7(776) 802-92-11</p>
+
+        <a href="https://web.whatsapp.com" class="down-side-inf"><img class="down-side-icons" src="WhatsApp-icon.png" alt="">+7(776) 802-92-11</a>
+
+      </div>
+
+    </div>
+
+    <script src="rock-paper-scissors.js"></script>
+    <script src="Page.js"></script>
+  </body>
+</html>

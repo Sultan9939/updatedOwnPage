@@ -1,0 +1,56 @@
+.rps-side {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  font-family: Arial;
+  height: 500px;
+  padding: 30px;
+}
+
+.topic-sentence {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.choice-button {
+  background-color: rgb(34, 33, 33);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: solid;
+  border-color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.icon-img {
+  height: 50px;
+  width: 50px;
+}
+
+.reset-button,
+.auto-play-button {
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: solid;
+  cursor: pointer;
+  background-color: white;
+}
+
+.reset-button:active {
+  background-color: gray;
+  color: white;
+}
+
+.auto-play-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.result-font {
+  font-weight: bold;
+  font-size: 30px;
+}
+    
